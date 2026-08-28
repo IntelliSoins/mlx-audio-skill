@@ -1,0 +1,23 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "mlx-audio-marketplace",
+  "owner": {
+    "name": "mlx-audio Contributors",
+    "email": "contact@mlx-audio.example.com"
+  },
+  "metadata": {
+    "description": "Skill pack mlx-audio pour Oh My Pi : TTS, STT, STS, VAD et API audio sur Apple Silicon",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "mlx-audio-skill",
+      "description": "Synthèse vocale, transcription, séparation audio et pipelines voix en temps réel via MLX",
+      "source": "./",
+      "category": "development",
+      "homepage": "https://github.com/Blaizzy/mlx-audio",
+      "keywords": ["audio", "tts", "stt", "voice", "mlx", "apple-silicon", "speech"],
+      "license": "MIT"
+    }
+  ]
+}
