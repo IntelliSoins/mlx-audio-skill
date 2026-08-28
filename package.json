@@ -1,0 +1,9 @@
+{
+  "name": "mlx-audio-skill",
+  "version": "1.0.0",
+  "description": "MLX-Audio skill for oh-my-pi: TTS, STT, STS, VAD, voice cloning, streaming, and OpenAI-compatible API on Apple Silicon",
+  "homepage": "https://github.com/Blaizzy/mlx-audio",
+  "omp": {
+    "skills": ["./skills"]
+  }
+}
